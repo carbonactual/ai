@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "domain": "ABBA",
+  "repository": "carbonactual/ai",
+  "role": "ai_capability_source",
+  "master_ai": "ABBA Master AI",
+  "consumes": ["OMNII contracts", "SEAL", "Proof", "Actual", "Pulse"],
+  "provides": ["model capability", "reasoning capability", "classification capability", "generation capability"],
+  "activation": {
+    "requires": ["license provenance", "free/open implementation path", "security review", "runtime tests", "health evidence"],
+    "status": "registered_not_implicitly_active"
+  },
+  "authority_rule": "Capability availability never grants authority.",
+  "provider_rule": "Provider-specific implementations remain replaceable adapters.",
+  "free_open_rule": true
+}
